@@ -144,8 +144,9 @@ def settings():
     return render_template('settings.html')
 
 # Email configuration
-EMAIL_ADDRESS = os.environ.get('EMAIL_ADDRESS', 'animatedaskit5459@gmail.com')
-EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', 'nhtq tdyu oeap azxp')
+EMAIL_ADDRESS = os.environ.get('EMAIL_ADDRESS', 'PUT YOUR EMAIL HERE')
+# Use an app password for Gmail or other email providers
+EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', 'PUT YOUR APP PASSWORD HERE')
 
 def send_notification(subject, body, recipient=None):
     """

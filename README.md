@@ -90,12 +90,20 @@ This project combines machine learning techniques with network traffic analysis 
    npm run dev
    ```
 
-   Access the frontend at http://localhost:3000
+   Access the frontend at http://localhost:5173
 
 2. For production build:
+
    ```bash
    npm run build
    ```
+
+3. To simulate packet attacks on the frontend:
+   ```bash
+   cd frontendsim
+   node server.js
+   ```
+   This will start the attack simulation server that generates packet data for visualization and testing.
 
 ### System Capabilities
 
